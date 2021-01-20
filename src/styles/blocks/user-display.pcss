@@ -1,0 +1,29 @@
+.user-display {
+  display: flex;
+  justify-content: flex-start;
+  &__avatar-style {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 31px;
+    overflow: hidden;
+  }
+
+  &__pic {
+    width: 75px;
+    height: 75px;
+    object-fit: contain;
+  }
+
+  &__name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: $text-color;
+    margin-bottom: 12px;
+  }
+
+  &__occ {
+    color: rgba($text-color, 0.5);
+  }
+}

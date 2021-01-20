@@ -1,0 +1,41 @@
+.about {
+    font-weight: 600;
+    line-height: 22px;
+    color: rgba($text-color, .8);
+    position: relative;
+
+  &__container {
+    padding-top: 220px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    margin-top: 21px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    color: $text-color;
+  }
+  
+  &__text-info {
+    margin-bottom: 90px;
+  }
+
+  &__ps {
+    font-style: italic;
+    line-height: 30px;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    background: url("~images/icons/star.png") center center / cover no-repeat;
+    bottom: 303px;
+    right: 52%;
+  }
+}

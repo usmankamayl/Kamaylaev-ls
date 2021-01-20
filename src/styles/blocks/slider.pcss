@@ -1,0 +1,23 @@
+.slider {
+  &__header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 87px;
+  }
+
+  &__buttons {
+    display: flex;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__item {
+    width: 30%;
+    & + & {
+      margin-left: 157px;
+    }
+  }
+}
